@@ -1,0 +1,1291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A4FAD3020B5D2397A75B899580CDCF /* ZJDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05732726A412D80C0FB8F4718E2DE93F /* ZJDevice.swift */; };
+		0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A000296BE57502642C8AD4CF6FDB219 /* KeychainSwift.swift */; };
+		1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC2813F70BF35B20B3F23EBB16E02354 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FE7BF3947ECB56B525804B1781BE7CB /* ZJDevice-ZJDevice in Resources */ = {isa = PBXBuildFile; fileRef = BF3F47484D33C1283A8A6E60BB88D242 /* ZJDevice-ZJDevice */; };
+		44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697B2AC1A56CE0AB62F3E8BB9C1F2F0 /* DeviceKit-dummy.m */; };
+		6024AD22984AF4A7F02288FCAC63DC96 /* ZJKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287F4117AD651A821A2CB39903AFA34 /* ZJKeychain.swift */; };
+		624EC5AD4EC2C8BC54F110171FE74905 /* Pods-ZJDevice_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E9E882B2BCBE9EAC20948375EB90CC6 /* Pods-ZJDevice_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF49BF22DE198C62E83C08503144018 /* Pods-ZJDevice_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A02AF4E3B7582CB692C2607B3E63B /* Pods-ZJDevice_Example-dummy.m */; };
+		6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD29786FB2A3F0FCF82273B5BD9F05B /* TegKeychainConstants.swift */; };
+		812A607A02E53A90EE0E7FB8DD9A9C0A /* ZJKeychain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782A12C9399124F0F473B5A033A964E9 /* ZJKeychain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19F2368F150DAD996B42A17BAE5CFA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ABEF282A0C2B61A474186B57D5B869D0 /* ZJDevice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFFBFF1E929131FB776CC43ED2D8D90 /* ZJDevice-dummy.m */; };
+		AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2619AD009EDAD332B0C6B1594F1C7405 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEB95BE030B396DE9D5F002122B4C1E /* KeychainSwift-dummy.m */; };
+		BAFF4BFB6D6FF320E296B2856FCD43EF /* ZJKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1FBACD13510AE22E2356692A9FE07B /* ZJKeychain-dummy.m */; };
+		C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6099A727575E29A902BEB2D11F0052AB /* Device.generated.swift */; };
+		EA225881F532B27DEEB4551EF9CC39EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EBAADE9D349823F5D7AB7D4225736C4F /* ZJDevice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E043BBE2E57B92DD97C2290397C2F8E /* ZJDevice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16E010C813D86BD884643A82037E394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B92E070A5DCD0A26881D162B0B4744 /* KeychainSwiftAccessOptions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAFE753A797875A5B38C1E62BEB012F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85A94F9A6DEA855B9A24A244835ECB4;
+			remoteInfo = ZJKeychain;
+		};
+		4B21255D1A6B1CC98B629A18B8C3071F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		8814D097339B4DA9B90FD7356B2DDFA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+		8B77462F7A4C38F693D467E591813389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 352C700CD868F21F5992DF777D9C6EA4;
+			remoteInfo = ZJDevice;
+		};
+		9D5EBD87FCDDBAB18B4EDDA15895D658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
+			remoteInfo = KeychainSwift;
+		};
+		C29937F6B98EDEF4E4F631D8CEFA0D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85A94F9A6DEA855B9A24A244835ECB4;
+			remoteInfo = ZJKeychain;
+		};
+		C96D83548EB2BE44C1907D7719AF2328 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC2A45F399BD33ECA9A4AC98805C8E8;
+			remoteInfo = "ZJDevice-ZJDevice";
+		};
+		DF1E8E22AE28A04545E5B2030E222C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDD1C6C8885D07092D8EA708AAC0E53;
+			remoteInfo = DeviceKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029CAC724B16BC1C2E48E98CA40E3038 /* ZJKeychain */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJKeychain; path = ZJKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05732726A412D80C0FB8F4718E2DE93F /* ZJDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJDevice.swift; path = ZJDevice/Classes/ZJDevice.swift; sourceTree = "<group>"; };
+		0990A6BE41622A26309AA8634B9E7D5E /* DeviceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.release.xcconfig; sourceTree = "<group>"; };
+		139DD6230EEFE29E487CF7909A4EB398 /* Pods-ZJDevice_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJDevice_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1A82535ADB195A762054D25EA1B499 /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
+		1EFFBFF1E929131FB776CC43ED2D8D90 /* ZJDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJDevice-dummy.m"; sourceTree = "<group>"; };
+		200CD185BC111A3BC559F336E4894232 /* KeychainSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.debug.xcconfig; sourceTree = "<group>"; };
+		24EA72F4B6095BC2FDEA16D4DC05D401 /* ZJDevice.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZJDevice.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2619AD009EDAD332B0C6B1594F1C7405 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
+		2C3F40CC97BC7F8A468C3A85F2534186 /* ZJKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJKeychain.debug.xcconfig; sourceTree = "<group>"; };
+		2E043BBE2E57B92DD97C2290397C2F8E /* ZJDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJDevice-umbrella.h"; sourceTree = "<group>"; };
+		31D158870CF4B3F772224E76D1E4C495 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
+		3AAF5AB65C685519DC6AADDF07B3CCD9 /* Pods-ZJDevice_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJDevice_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3BD29786FB2A3F0FCF82273B5BD9F05B /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
+		3CAFF8BCA332BFF5A245D11C329EFB57 /* Pods-ZJDevice_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDevice_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44D9D2F5DCB67D8A116ACA2D5B04D535 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
+		4545FED07AF936AB48B20FF3EA11DAE9 /* Pods-ZJDevice_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDevice_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4697B2AC1A56CE0AB62F3E8BB9C1F2F0 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
+		4B05EA99F175A50EA1EE2CCCAFBBBA3B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4FC34BC2FF4F718D3B684C15DD2DA7C0 /* Pods-ZJDevice_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZJDevice_Example"; path = Pods_ZJDevice_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6099A727575E29A902BEB2D11F0052AB /* Device.generated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.generated.swift; path = Source/Device.generated.swift; sourceTree = "<group>"; };
+		63D9D9D6825A8CBAC008A4DC66240B8E /* ResourceBundle-ZJDevice-ZJDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZJDevice-ZJDevice-Info.plist"; sourceTree = "<group>"; };
+		67DAD6FBA6D654EAF66D222C29D80BDD /* KeychainSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.release.xcconfig; sourceTree = "<group>"; };
+		6E9E882B2BCBE9EAC20948375EB90CC6 /* Pods-ZJDevice_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJDevice_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7506FDD95E15E407D1F02AF2718857D3 /* ZJKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJKeychain-Info.plist"; sourceTree = "<group>"; };
+		782A12C9399124F0F473B5A033A964E9 /* ZJKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJKeychain-umbrella.h"; sourceTree = "<group>"; };
+		7A000296BE57502642C8AD4CF6FDB219 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
+		7B2A02AF4E3B7582CB692C2607B3E63B /* Pods-ZJDevice_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJDevice_Example-dummy.m"; sourceTree = "<group>"; };
+		813948F15E8BE5B890BEC549D114A4B1 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
+		8399CDF93BB6A5D5235133AAC6DFDB1A /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		8A1FBACD13510AE22E2356692A9FE07B /* ZJKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJKeychain-dummy.m"; sourceTree = "<group>"; };
+		924060AD9A5B2E3EC87A565859DB5254 /* Pods-ZJDevice_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZJDevice_Example.modulemap"; sourceTree = "<group>"; };
+		95002DFD21AF0B03D07F19D7006191E7 /* ZJKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJKeychain-prefix.pch"; sourceTree = "<group>"; };
+		95F045A56FC8B187A2502277672EB6DD /* DeviceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A287F4117AD651A821A2CB39903AFA34 /* ZJKeychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZJKeychain.swift; path = ZJKeychain/Classes/ZJKeychain.swift; sourceTree = "<group>"; };
+		AB1D65994AE21E52AE78C6E4108AD58E /* ZJDevice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJDevice.release.xcconfig; sourceTree = "<group>"; };
+		ABEB95BE030B396DE9D5F002122B4C1E /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
+		ADEB4CD8E9F4C9002ACDE6CEA736FBEA /* ZJDevice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZJDevice-Info.plist"; sourceTree = "<group>"; };
+		B6AFC24B8231113830C5BC3EE50571C7 /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		B90F3A239F09D084111EAE41DEA1B93F /* ZJKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJKeychain.modulemap; sourceTree = "<group>"; };
+		BC2813F70BF35B20B3F23EBB16E02354 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		BF3F47484D33C1283A8A6E60BB88D242 /* ZJDevice-ZJDevice */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "ZJDevice-ZJDevice"; path = ZJDevice.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D223E6E32BF2106CE9DA1E412077B3 /* Pods-ZJDevice_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJDevice_Example-Info.plist"; sourceTree = "<group>"; };
+		C44ED76E0A6AAA7CF904F251BD2308CE /* ZJDevice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJDevice.debug.xcconfig; sourceTree = "<group>"; };
+		C9B7539CEA5F35A203CE56B6AA13A875 /* ZJDevice */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJDevice; path = ZJDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8F6ACE75923596784CAD21486E6033 /* ZJDevice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJDevice.modulemap; sourceTree = "<group>"; };
+		E406977E14C9223E8FCFAC108C5FF471 /* ZJKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJKeychain.release.xcconfig; sourceTree = "<group>"; };
+		E720DEA038208BE8F9EF16E34E720779 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4DFCAD6846172C8C6C852C464780D4B /* Pods-ZJDevice_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJDevice_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F6B92E070A5DCD0A26881D162B0B4744 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
+		FDFA45CA8E9C1712B40348B2328AC832 /* ZJDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJDevice-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507039727E534460308D143613CE7411 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F2368F150DAD996B42A17BAE5CFA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E909EB12C1EAC4BA141FB502654D49B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DB810683279519B9B1B3486AD5FBAEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16E010C813D86BD884643A82037E394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F5E1096151C1DC75B67489352719863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C543B2A5CF83423F50EF2DFA3A7F1141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22F379B759D21D9F69006F69697785E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA225881F532B27DEEB4551EF9CC39EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6341323AF22E2615DF96CA5BF7C388E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1405E608CE64AC939BCF7CCEDDAA2B2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C950945A53C9B3B83F20D906C0DCFC8 /* Pods-ZJDevice_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E7688D1B18084DB8DD9A68AA0307F9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */,
+				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
+				4FC34BC2FF4F718D3B684C15DD2DA7C0 /* Pods-ZJDevice_Example */,
+				C9B7539CEA5F35A203CE56B6AA13A875 /* ZJDevice */,
+				BF3F47484D33C1283A8A6E60BB88D242 /* ZJDevice-ZJDevice */,
+				029CAC724B16BC1C2E48E98CA40E3038 /* ZJKeychain */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F395A86A4BEA2E2E0E1ADD981E39DE0 /* ZJDevice */ = {
+			isa = PBXGroup;
+			children = (
+				05732726A412D80C0FB8F4718E2DE93F /* ZJDevice.swift */,
+				ECC1667023E1416D249326B42F742F0E /* Pod */,
+				8B0A5F5CCD36977FBAA55B9D1798A496 /* Support Files */,
+			);
+			name = ZJDevice;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74C23D016D381EBAFCF24B4B6FA7656D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5DC8404D16E0AA0669E27BDE1BA0A0A /* DeviceKit */,
+				F17AB63D51071A30272FA3A2AC58DC95 /* KeychainSwift */,
+				7C98C87E1D5F52A6F93AFEF92C92B79D /* ZJKeychain */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C98C87E1D5F52A6F93AFEF92C92B79D /* ZJKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				A287F4117AD651A821A2CB39903AFA34 /* ZJKeychain.swift */,
+				8E3D42F0C4F94210AD4DFC8AB618ECE1 /* Support Files */,
+			);
+			name = ZJKeychain;
+			path = ZJKeychain;
+			sourceTree = "<group>";
+		};
+		8B0A5F5CCD36977FBAA55B9D1798A496 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D9D9D6825A8CBAC008A4DC66240B8E /* ResourceBundle-ZJDevice-ZJDevice-Info.plist */,
+				CC8F6ACE75923596784CAD21486E6033 /* ZJDevice.modulemap */,
+				1EFFBFF1E929131FB776CC43ED2D8D90 /* ZJDevice-dummy.m */,
+				ADEB4CD8E9F4C9002ACDE6CEA736FBEA /* ZJDevice-Info.plist */,
+				FDFA45CA8E9C1712B40348B2328AC832 /* ZJDevice-prefix.pch */,
+				2E043BBE2E57B92DD97C2290397C2F8E /* ZJDevice-umbrella.h */,
+				C44ED76E0A6AAA7CF904F251BD2308CE /* ZJDevice.debug.xcconfig */,
+				AB1D65994AE21E52AE78C6E4108AD58E /* ZJDevice.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJDevice";
+			sourceTree = "<group>";
+		};
+		8E3D42F0C4F94210AD4DFC8AB618ECE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B90F3A239F09D084111EAE41DEA1B93F /* ZJKeychain.modulemap */,
+				8A1FBACD13510AE22E2356692A9FE07B /* ZJKeychain-dummy.m */,
+				7506FDD95E15E407D1F02AF2718857D3 /* ZJKeychain-Info.plist */,
+				95002DFD21AF0B03D07F19D7006191E7 /* ZJKeychain-prefix.pch */,
+				782A12C9399124F0F473B5A033A964E9 /* ZJKeychain-umbrella.h */,
+				2C3F40CC97BC7F8A468C3A85F2534186 /* ZJKeychain.debug.xcconfig */,
+				E406977E14C9223E8FCFAC108C5FF471 /* ZJKeychain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZJKeychain";
+			sourceTree = "<group>";
+		};
+		9C950945A53C9B3B83F20D906C0DCFC8 /* Pods-ZJDevice_Example */ = {
+			isa = PBXGroup;
+			children = (
+				924060AD9A5B2E3EC87A565859DB5254 /* Pods-ZJDevice_Example.modulemap */,
+				139DD6230EEFE29E487CF7909A4EB398 /* Pods-ZJDevice_Example-acknowledgements.markdown */,
+				3AAF5AB65C685519DC6AADDF07B3CCD9 /* Pods-ZJDevice_Example-acknowledgements.plist */,
+				7B2A02AF4E3B7582CB692C2607B3E63B /* Pods-ZJDevice_Example-dummy.m */,
+				F4DFCAD6846172C8C6C852C464780D4B /* Pods-ZJDevice_Example-frameworks.sh */,
+				C0D223E6E32BF2106CE9DA1E412077B3 /* Pods-ZJDevice_Example-Info.plist */,
+				6E9E882B2BCBE9EAC20948375EB90CC6 /* Pods-ZJDevice_Example-umbrella.h */,
+				3CAFF8BCA332BFF5A245D11C329EFB57 /* Pods-ZJDevice_Example.debug.xcconfig */,
+				4545FED07AF936AB48B20FF3EA11DAE9 /* Pods-ZJDevice_Example.release.xcconfig */,
+			);
+			name = "Pods-ZJDevice_Example";
+			path = "Target Support Files/Pods-ZJDevice_Example";
+			sourceTree = "<group>";
+		};
+		9F14135B773C9EDB31278C3A5C301228 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AFC24B8231113830C5BC3EE50571C7 /* KeychainSwift.modulemap */,
+				ABEB95BE030B396DE9D5F002122B4C1E /* KeychainSwift-dummy.m */,
+				31D158870CF4B3F772224E76D1E4C495 /* KeychainSwift-Info.plist */,
+				813948F15E8BE5B890BEC549D114A4B1 /* KeychainSwift-prefix.pch */,
+				BC2813F70BF35B20B3F23EBB16E02354 /* KeychainSwift-umbrella.h */,
+				200CD185BC111A3BC559F336E4894232 /* KeychainSwift.debug.xcconfig */,
+				67DAD6FBA6D654EAF66D222C29D80BDD /* KeychainSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainSwift";
+			sourceTree = "<group>";
+		};
+		CA9E1539A894814FA352BB36D90313C0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F395A86A4BEA2E2E0E1ADD981E39DE0 /* ZJDevice */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA9E1539A894814FA352BB36D90313C0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				74C23D016D381EBAFCF24B4B6FA7656D /* Pods */,
+				3E7688D1B18084DB8DD9A68AA0307F9B /* Products */,
+				1405E608CE64AC939BCF7CCEDDAA2B2C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5DC8404D16E0AA0669E27BDE1BA0A0A /* DeviceKit */ = {
+			isa = PBXGroup;
+			children = (
+				6099A727575E29A902BEB2D11F0052AB /* Device.generated.swift */,
+				D7E936E855A494B5CB91175671D2B889 /* Support Files */,
+			);
+			name = DeviceKit;
+			path = DeviceKit;
+			sourceTree = "<group>";
+		};
+		D7E936E855A494B5CB91175671D2B889 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8399CDF93BB6A5D5235133AAC6DFDB1A /* DeviceKit.modulemap */,
+				4697B2AC1A56CE0AB62F3E8BB9C1F2F0 /* DeviceKit-dummy.m */,
+				1A1A82535ADB195A762054D25EA1B499 /* DeviceKit-Info.plist */,
+				44D9D2F5DCB67D8A116ACA2D5B04D535 /* DeviceKit-prefix.pch */,
+				2619AD009EDAD332B0C6B1594F1C7405 /* DeviceKit-umbrella.h */,
+				95F045A56FC8B187A2502277672EB6DD /* DeviceKit.debug.xcconfig */,
+				0990A6BE41622A26309AA8634B9E7D5E /* DeviceKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeviceKit";
+			sourceTree = "<group>";
+		};
+		ECC1667023E1416D249326B42F742F0E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E720DEA038208BE8F9EF16E34E720779 /* LICENSE */,
+				4B05EA99F175A50EA1EE2CCCAFBBBA3B /* README.md */,
+				24EA72F4B6095BC2FDEA16D4DC05D401 /* ZJDevice.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F17AB63D51071A30272FA3A2AC58DC95 /* KeychainSwift */ = {
+			isa = PBXGroup;
+			children = (
+				7A000296BE57502642C8AD4CF6FDB219 /* KeychainSwift.swift */,
+				F6B92E070A5DCD0A26881D162B0B4744 /* KeychainSwiftAccessOptions.swift */,
+				3BD29786FB2A3F0FCF82273B5BD9F05B /* TegKeychainConstants.swift */,
+				9F14135B773C9EDB31278C3A5C301228 /* Support Files */,
+			);
+			name = KeychainSwift;
+			path = KeychainSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1380B9994192F420D8BC0308CC7B1B0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EC024F54023B0D698A37C47122C953 /* KeychainSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ABE4DEF9C20F4EA7E317875CCF8D2DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812A607A02E53A90EE0E7FB8DD9A9C0A /* ZJKeychain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7081B3E1ACE9CCBE64EF2D6C834DA882 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624EC5AD4EC2C8BC54F110171FE74905 /* Pods-ZJDevice_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8420E265A5D39EAAC698E9CDA06B8F02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAADE9D349823F5D7AB7D4225736C4F /* ZJDevice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B869F45523B08C188EC6722E1DD8C363 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE419A0EB119A1B529D3E851011B031C /* DeviceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
+			buildPhases = (
+				1380B9994192F420D8BC0308CC7B1B0D /* Headers */,
+				27429ECFAA0B46393CF2868590187F44 /* Sources */,
+				8F5E1096151C1DC75B67489352719863 /* Frameworks */,
+				417F0B4D46DB5C4EC5381D3770D462EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainSwift;
+			productName = KeychainSwift;
+			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		352C700CD868F21F5992DF777D9C6EA4 /* ZJDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AEF71AB88DC66B3ED25A32CE6F2B963 /* Build configuration list for PBXNativeTarget "ZJDevice" */;
+			buildPhases = (
+				8420E265A5D39EAAC698E9CDA06B8F02 /* Headers */,
+				C49334E1CA2446F97BAFAEE22D9FCA42 /* Sources */,
+				507039727E534460308D143613CE7411 /* Frameworks */,
+				68E89FEE81BF61ADCC5D6568036F5345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C01507A54421D02894A983088476409 /* PBXTargetDependency */,
+				80E20A38B627CFCA9FBCD28BAF4C9C03 /* PBXTargetDependency */,
+				EAF55363F22015F2876D106A9AE23A0B /* PBXTargetDependency */,
+			);
+			name = ZJDevice;
+			productName = ZJDevice;
+			productReference = C9B7539CEA5F35A203CE56B6AA13A875 /* ZJDevice */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AC2A45F399BD33ECA9A4AC98805C8E8 /* ZJDevice-ZJDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525C123AE4BCCAD217F81694AE8C1145 /* Build configuration list for PBXNativeTarget "ZJDevice-ZJDevice" */;
+			buildPhases = (
+				9BFD1FD88B2AFFDD3CDCECA7E377BADB /* Sources */,
+				E6341323AF22E2615DF96CA5BF7C388E /* Frameworks */,
+				29B22932F6C4251C5745B7E4DBA505B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZJDevice-ZJDevice";
+			productName = ZJDevice;
+			productReference = BF3F47484D33C1283A8A6E60BB88D242 /* ZJDevice-ZJDevice */;
+			productType = "com.apple.product-type.bundle";
+		};
+		4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */;
+			buildPhases = (
+				B869F45523B08C188EC6722E1DD8C363 /* Headers */,
+				B024EDE69B3C51D739853194CE746FE4 /* Sources */,
+				6C616238525BCC61AE0C0C4690227BE1 /* Frameworks */,
+				8EE6FBD90231B8B4128EE874B295E36F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceKit;
+			productName = DeviceKit;
+			productReference = 190D7383CCEFD8AB3F8CB93098A3F214 /* DeviceKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		D85A94F9A6DEA855B9A24A244835ECB4 /* ZJKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8701EA8B87A5CC79B6B5C22B5C15AE48 /* Build configuration list for PBXNativeTarget "ZJKeychain" */;
+			buildPhases = (
+				2ABE4DEF9C20F4EA7E317875CCF8D2DE /* Headers */,
+				98878475564B73C747E8341ACE604C21 /* Sources */,
+				D22F379B759D21D9F69006F69697785E /* Frameworks */,
+				1C8B1EAE0EC545957E350E870F5525C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C283714DD4F6DDB56B4AE870C6D192 /* PBXTargetDependency */,
+			);
+			name = ZJKeychain;
+			productName = ZJKeychain;
+			productReference = 029CAC724B16BC1C2E48E98CA40E3038 /* ZJKeychain */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEBE7E174888D60AA643D444CB834937 /* Pods-ZJDevice_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508E89D24A141B0D2A90224C9D835A1D /* Build configuration list for PBXNativeTarget "Pods-ZJDevice_Example" */;
+			buildPhases = (
+				7081B3E1ACE9CCBE64EF2D6C834DA882 /* Headers */,
+				1CE4525B763D8AC27FDF0BF6DC67E0C7 /* Sources */,
+				8DB810683279519B9B1B3486AD5FBAEE /* Frameworks */,
+				F8705961525E6DBBD494B6FB5382D226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC6C8874CB7DCA42C72775FDDAF1F1D /* PBXTargetDependency */,
+				60DDC409B363FF4B18B8D3BF4A4A6557 /* PBXTargetDependency */,
+				53AC10C55069BCAFC0343792E694C3FB /* PBXTargetDependency */,
+				228A8A89CE379BDE63FE7B94376FD8F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJDevice_Example";
+			productName = Pods_ZJDevice_Example;
+			productReference = 4FC34BC2FF4F718D3B684C15DD2DA7C0 /* Pods-ZJDevice_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E7688D1B18084DB8DD9A68AA0307F9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */,
+				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
+				EEBE7E174888D60AA643D444CB834937 /* Pods-ZJDevice_Example */,
+				352C700CD868F21F5992DF777D9C6EA4 /* ZJDevice */,
+				4AC2A45F399BD33ECA9A4AC98805C8E8 /* ZJDevice-ZJDevice */,
+				D85A94F9A6DEA855B9A24A244835ECB4 /* ZJKeychain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C8B1EAE0EC545957E350E870F5525C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29B22932F6C4251C5745B7E4DBA505B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F0B4D46DB5C4EC5381D3770D462EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E89FEE81BF61ADCC5D6568036F5345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE7BF3947ECB56B525804B1781BE7CB /* ZJDevice-ZJDevice in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE6FBD90231B8B4128EE874B295E36F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8705961525E6DBBD494B6FB5382D226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CE4525B763D8AC27FDF0BF6DC67E0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF49BF22DE198C62E83C08503144018 /* Pods-ZJDevice_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27429ECFAA0B46393CF2868590187F44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBFBBC52B77AEDD220B219AFA55B4F6 /* KeychainSwift.swift in Sources */,
+				B39BF720A3E471DC10CDC6CC3986D2A9 /* KeychainSwift-dummy.m in Sources */,
+				FAA9422DBF165F89AA81D94DB2DBF457 /* KeychainSwiftAccessOptions.swift in Sources */,
+				6C133193471A0A93B4CE45491148072A /* TegKeychainConstants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98878475564B73C747E8341ACE604C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6024AD22984AF4A7F02288FCAC63DC96 /* ZJKeychain.swift in Sources */,
+				BAFF4BFB6D6FF320E296B2856FCD43EF /* ZJKeychain-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BFD1FD88B2AFFDD3CDCECA7E377BADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B024EDE69B3C51D739853194CE746FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C71141A72424BC3711B53BB4726744 /* Device.generated.swift in Sources */,
+				44FDC841C20165E2DE68E31737A401DC /* DeviceKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49334E1CA2446F97BAFAEE22D9FCA42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A4FAD3020B5D2397A75B899580CDCF /* ZJDevice.swift in Sources */,
+				ABEF282A0C2B61A474186B57D5B869D0 /* ZJDevice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C283714DD4F6DDB56B4AE870C6D192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 9D5EBD87FCDDBAB18B4EDDA15895D658 /* PBXContainerItemProxy */;
+		};
+		228A8A89CE379BDE63FE7B94376FD8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJKeychain;
+			target = D85A94F9A6DEA855B9A24A244835ECB4 /* ZJKeychain */;
+			targetProxy = C29937F6B98EDEF4E4F631D8CEFA0D4C /* PBXContainerItemProxy */;
+		};
+		2DC6C8874CB7DCA42C72775FDDAF1F1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = DF1E8E22AE28A04545E5B2030E222C36 /* PBXContainerItemProxy */;
+		};
+		3C01507A54421D02894A983088476409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeviceKit;
+			target = 4CDD1C6C8885D07092D8EA708AAC0E53 /* DeviceKit */;
+			targetProxy = 8814D097339B4DA9B90FD7356B2DDFA3 /* PBXContainerItemProxy */;
+		};
+		53AC10C55069BCAFC0343792E694C3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJDevice;
+			target = 352C700CD868F21F5992DF777D9C6EA4 /* ZJDevice */;
+			targetProxy = 8B77462F7A4C38F693D467E591813389 /* PBXContainerItemProxy */;
+		};
+		60DDC409B363FF4B18B8D3BF4A4A6557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainSwift;
+			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
+			targetProxy = 4B21255D1A6B1CC98B629A18B8C3071F /* PBXContainerItemProxy */;
+		};
+		80E20A38B627CFCA9FBCD28BAF4C9C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZJDevice-ZJDevice";
+			target = 4AC2A45F399BD33ECA9A4AC98805C8E8 /* ZJDevice-ZJDevice */;
+			targetProxy = C96D83548EB2BE44C1907D7719AF2328 /* PBXContainerItemProxy */;
+		};
+		EAF55363F22015F2876D106A9AE23A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJKeychain;
+			target = D85A94F9A6DEA855B9A24A244835ECB4 /* ZJKeychain */;
+			targetProxy = 1DAFE753A797875A5B38C1E62BEB012F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E6F629BD2B7B3AF5367725360AF086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CAFF8BCA332BFF5A245D11C329EFB57 /* Pods-ZJDevice_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDevice_Example/Pods-ZJDevice_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDevice_Example/Pods-ZJDevice_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C052D359955788864078311B2EA7591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44ED76E0A6AAA7CF904F251BD2308CE /* ZJDevice.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJDevice/ZJDevice-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJDevice/ZJDevice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJDevice/ZJDevice.modulemap";
+				PRODUCT_MODULE_NAME = ZJDevice;
+				PRODUCT_NAME = ZJDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE15074050361C271BA4AF8F3492ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F045A56FC8B187A2502277672EB6DD /* DeviceKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56AC7335090B7ACEECAB3EA279214F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0990A6BE41622A26309AA8634B9E7D5E /* DeviceKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceKit/DeviceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceKit/DeviceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceKit/DeviceKit.modulemap";
+				PRODUCT_MODULE_NAME = DeviceKit;
+				PRODUCT_NAME = DeviceKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		715172A0256C4C2C8149C90886B49CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4545FED07AF936AB48B20FF3EA11DAE9 /* Pods-ZJDevice_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDevice_Example/Pods-ZJDevice_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDevice_Example/Pods-ZJDevice_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717BF11508A479CC048B39007DBFA655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DAD6FBA6D654EAF66D222C29D80BDD /* KeychainSwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A057B053DBE3EB0A8BAB2BA0AFC17A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1D65994AE21E52AE78C6E4108AD58E /* ZJDevice.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJDevice/ZJDevice-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJDevice/ZJDevice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJDevice/ZJDevice.modulemap";
+				PRODUCT_MODULE_NAME = ZJDevice;
+				PRODUCT_NAME = ZJDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B11A15399BF68600557F3F5A421D5FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3F40CC97BC7F8A468C3A85F2534186 /* ZJKeychain.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJKeychain/ZJKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJKeychain/ZJKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJKeychain/ZJKeychain.modulemap";
+				PRODUCT_MODULE_NAME = ZJKeychain;
+				PRODUCT_NAME = ZJKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D2F78367C06F341A16DEF595FE4BB14C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200CD185BC111A3BC559F336E4894232 /* KeychainSwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
+				PRODUCT_MODULE_NAME = KeychainSwift;
+				PRODUCT_NAME = KeychainSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF693131D99571493B682AE2F757711A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1D65994AE21E52AE78C6E4108AD58E /* ZJDevice.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJDevice";
+				IBSC_MODULE = ZJDevice;
+				INFOPLIST_FILE = "Target Support Files/ZJDevice/ResourceBundle-ZJDevice-ZJDevice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZJDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E7A75757291A27ABB1F35FBB97F877D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E406977E14C9223E8FCFAC108C5FF471 /* ZJKeychain.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZJKeychain/ZJKeychain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJKeychain/ZJKeychain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJKeychain/ZJKeychain.modulemap";
+				PRODUCT_MODULE_NAME = ZJKeychain;
+				PRODUCT_NAME = ZJKeychain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F13420B6BEB3D08AABF806AF7EF10F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44ED76E0A6AAA7CF904F251BD2308CE /* ZJDevice.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJDevice";
+				IBSC_MODULE = ZJDevice;
+				INFOPLIST_FILE = "Target Support Files/ZJDevice/ResourceBundle-ZJDevice-ZJDevice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ZJDevice;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508E89D24A141B0D2A90224C9D835A1D /* Build configuration list for PBXNativeTarget "Pods-ZJDevice_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E6F629BD2B7B3AF5367725360AF086 /* Debug */,
+				715172A0256C4C2C8149C90886B49CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525C123AE4BCCAD217F81694AE8C1145 /* Build configuration list for PBXNativeTarget "ZJDevice-ZJDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13420B6BEB3D08AABF806AF7EF10F29 /* Debug */,
+				DF693131D99571493B682AE2F757711A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AEF71AB88DC66B3ED25A32CE6F2B963 /* Build configuration list for PBXNativeTarget "ZJDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C052D359955788864078311B2EA7591 /* Debug */,
+				A057B053DBE3EB0A8BAB2BA0AFC17A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8701EA8B87A5CC79B6B5C22B5C15AE48 /* Build configuration list for PBXNativeTarget "ZJKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11A15399BF68600557F3F5A421D5FB3 /* Debug */,
+				E7A75757291A27ABB1F35FBB97F877D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		997BF8AEF73E04BE3F0E828FF63C51E6 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2F78367C06F341A16DEF595FE4BB14C /* Debug */,
+				717BF11508A479CC048B39007DBFA655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2416AB9D0716DFAC4C6C724B0E6744 /* Build configuration list for PBXNativeTarget "DeviceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE15074050361C271BA4AF8F3492ECA /* Debug */,
+				56AC7335090B7ACEECAB3EA279214F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

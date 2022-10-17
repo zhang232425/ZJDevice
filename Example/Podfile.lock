@@ -1,0 +1,32 @@
+PODS:
+  - DeviceKit (4.7.0)
+  - KeychainSwift (20.0.0)
+  - ZJDevice (0.1.0):
+    - DeviceKit
+    - ZJKeychain
+  - ZJKeychain (0.1.0):
+    - KeychainSwift
+
+DEPENDENCIES:
+  - ZJDevice (from `../`)
+
+SPEC REPOS:
+  "git@github.com:zhang232425/ZJSpecs.git":
+    - ZJKeychain
+  https://github.com/CocoaPods/Specs.git:
+    - DeviceKit
+    - KeychainSwift
+
+EXTERNAL SOURCES:
+  ZJDevice:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DeviceKit: c870c34f7c0e0ac4caa6f052e6efe7ef1472c5a1
+  KeychainSwift: 0ce6a4d13f7228054d1a71bb1b500448fb2ab837
+  ZJDevice: 08a831f5d3382566e651c29b1fe7cd9ba6bfb851
+  ZJKeychain: 056dd2cf24a6d44cb41677290742fe46cac94d39
+
+PODFILE CHECKSUM: 6955ac45f63f5902d15e1052f81c8656a923f712
+
+COCOAPODS: 1.11.2
